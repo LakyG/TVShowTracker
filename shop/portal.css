@@ -1,0 +1,110 @@
+/*
+    https://getbootstrap.com/docs/3.3/css/
+*/
+
+[class*="col-"] {
+    background-color: inherit;
+    border: none;
+	text-align: center;
+}
+
+#login {
+    width: 100vw;
+    height: 100vh;
+}
+
+.front {
+    background: #99ccff;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#err-login-bar {
+    padding: 0;
+    margin: 5px;
+    height: 2rem;
+}
+
+@font-face {
+font-family: "Fredoka";
+src: url("FredokaOne-Regular.ttf");
+src: 
+url("FredokaOne-Regular.ttf") format("ttf"),
+}
+
+.line {
+	border-color: #B03A2E;
+	border-style: solid;
+	border-width: 1px;
+	height: 0px;
+	width: 100%;
+}
+
+#page-title {
+	font-weight: normal;
+	font-size: 60px;
+	font-family: Fredoka;
+	letter-spacing: 2px;
+	color: #B03A2E;
+	text-align: center;
+}
+
+#sub-title {
+	font-weight: normal;
+	font-size: 40px;
+	font-family: Fredoka;
+	letter-spacing: 2px;
+	color: #B03A2E;
+	text-align: center;
+}
+
+.shop-el {
+    display: table;
+    height: 100%;
+    width: 100%;
+    flex-grow: 1;
+    padding: 2rem;
+    
+	color: #B03A2E;
+	font-family: Fredoka;
+	font-size: 25px;
+}
+
+.top {
+	border-style: solid;
+	padding-top: 10px;
+	border-width: 3px;
+	border-color: #B03A2E;
+}
+
+button {
+    border-radius: 30px;
+    outline: none;
+	color: #B03A2E;
+	font-family: Fredoka;
+	font-size: 20px;
+	border: solid #B03A2E;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+input {
+	height: 30px;
+	width: 80%;
+	color: #B03A2E;
+	font-family: Fredoka;
+	font-weight: normal;
+}
+
+h4 {
+	font-weight: normal;
+	font-size: 20px;
+	font-family: Fredoka;
+	letter-spacing: 2px;
+	color: #B03A2E;
+}
+
+body {
+	background-color: #ABB2B9;
+}
